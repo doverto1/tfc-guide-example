@@ -26,5 +26,6 @@ resource "aws_instance" "ubuntu" {
     Name                 = var.instance_name
     "Linux Distribution" = "Ubuntu"
     "OS Version"         = "20.04"
+    "Terraform Cloud"    = true
   }
 }
